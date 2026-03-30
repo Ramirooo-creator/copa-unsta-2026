@@ -26,7 +26,7 @@ try:
         st.subheader("¡Bienvenidos a la Copa UNSTA!")
         # El logo oficial de la Copa UNSTA - Economía en Conexión
         st.image("https://i.postimg.cc/SR1zNMsw/Gemini-Generated-Image-6ua0ja6ua0ja6ua0.png", width=300)
-        st.write("Selecciona tu categoría en el menú lateral para ver los cruces y equipos.")
+        st.write("Selecciona tu categoría en el menú lateral izquierdo para ver los cruces y equipos.")
     else:
         rama = "Masculino" if "Masculino" in menu else "Femenino"
         t1, t2 = st.tabs(["📍 Cuadro", "👥 Equipos"])
