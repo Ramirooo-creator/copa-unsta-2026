@@ -23,8 +23,9 @@ try:
     menu = st.sidebar.selectbox("Selecciona una opción:", ["🏠 Inicio", "🚹 Torneo Masculino", "🚺 Torneo Femenino"])
 
     if menu == "🏠 Inicio":
-        st.subheader("¡Bienvenidos a la Copa UNSTA!")
-        st.image("https://unsta.edu.ar/wp-content/uploads/2021/05/Logo-Unsta-Azul.png", width=200)
+    st.subheader("¡Bienvenidos a la Copa UNSTA!")
+    # Pegá el link de arriba aquí:
+    st.image("http://googleusercontent.com/profile/picture/4", width=300)
     else:
         rama = "Masculino" if "Masculino" in menu else "Femenino"
         t1, t2 = st.tabs(["📍 Cuadro", "👥 Equipos"])
